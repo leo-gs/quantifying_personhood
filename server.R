@@ -35,21 +35,24 @@ function(input, output, session) {
   
   ## Dynamically loading data
   top50 <- reactive({
-    top_posts <- fromJSON("rbooks_top50.json")$data[["children"]]$data[["children"]]
-    tibble(
-      Author = top_posts[["data"]][["author"]],
-      Title = top_posts[["data"]][["title"]],
-      Content = str_c(
-        replace_na(top_posts[["data"]][["selftext"]], ""), 
-        sep = " ", 
-        replace_na(top_posts[["data"]][["url_overridden_by_dest"]], "")
-      ) %>%
-        str_trim(),
-      `Has URL` = !is.na(top_posts[["data"]][["url_overridden_by_dest"]]),
-      Year = year(as_datetime(top_posts[["data"]][["created_utc"]])),
-      Comments = top_posts[["data"]][["num_comments"]],
-      Upvotes = top_posts[["data"]][["ups"]]
-    )
+    top_posts <- parse_json(readLines("rbooks_top50.json"))$data[["children"]]
+    lapply(top_posts, function(p) {
+      tibble(
+        Author = p[["data"]][["author"]],
+        Title = p[["data"]][["title"]],
+        Content = str_c(
+          replace_na(p[["data"]][["selftext"]], ""), 
+          sep = " ", 
+          replace_na(p[["data"]][["url_overridden_by_dest"]], "")
+        ) %>%
+          str_trim(),
+        `Has URL` = !is.na(p[["data"]][["url_overridden_by_dest"]]),
+        Year = year(as_datetime(p[["data"]][["created_utc"]])),
+        Comments = p[["data"]][["num_comments"]],
+        Upvotes = p[["data"]][["ups"]]
+      )
+    }) %>%
+      bind_rows()
   })
   
   ## Table showing tabular data format
