@@ -12,6 +12,8 @@ library(igraph)
 library(visNetwork)
 library(lubridate)
 
+options(shiny.sanitize.errors = FALSE)
+
 function(input, output, session) {
   
   ## Converting a vector to an html list
@@ -33,7 +35,7 @@ function(input, output, session) {
   
   ## Dynamically loading data
   top50 <- reactive({
-    top_posts <- fromJSON("https://www.reddit.com/r/books/top.json?t=all&limit=50&raw_json=1")$data[["children"]]
+    top_posts <- fromJSON("rbooks_top50.json")$data[["children"]]$data[["children"]]
     tibble(
       Author = top_posts[["data"]][["author"]],
       Title = top_posts[["data"]][["title"]],
@@ -278,7 +280,7 @@ function(input, output, session) {
     tags$style(HTML(glue(.open = "@{", .close = "}@",
                          '#thematic_coding_primer div[value^="Learn More: Thematic Coding Primer"] > .panel-heading {
                                color: rgb(0, 0 ,0);
-                               background-color: rgb(254,251,234);
+                               background-color: rgb(254,254,254);
                                text-align: left
                                }@;
                                }'
@@ -289,7 +291,7 @@ function(input, output, session) {
     tags$style(HTML(glue::glue(.open = "@{", .close = "}@",
                                '#understanding_network_proj div[value^="Learn More: Understanding Network Projections"] > .panel-heading {
                                color: rgb(0, 0 ,0);
-                               background-color: rgb(254,251,234);
+                               background-color: rgb(254,254,254);
                                text-align: left
                                }@;
                                }'

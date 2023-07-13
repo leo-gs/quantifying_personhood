@@ -4,6 +4,7 @@ library(shinythemes)
 library(shinyBS)
 library(visNetwork)
 
+options(shiny.sanitize.errors = FALSE)
 
 ui <- fluidPage(
   tabsetPanel(selected = 1,
