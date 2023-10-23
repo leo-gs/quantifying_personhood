@@ -7,7 +7,7 @@ _Why do we need qualitative research and critical perspectives?_
 _How do truth and objectivity manifest in different research paradigms?_
 
 ### Data Workshop
-Run the Shiny app (here)[https://github.com/leo-gs/quantifying_personhood/tree/main/week1_intro] learn about qualitative research questions using Yelp reviews of bars in Philadelphia.
+Run the Shiny app [here](https://github.com/leo-gs/quantifying_personhood/tree/main/week1_intro) learn about qualitative research questions using Yelp reviews of bars in Philadelphia.
 
 ### Core Readings
 * Cheney-Lippold, J. (2018). Categorization: Making Data Useful. We are data: Algorithms and the making of our digital selves. NYU Press.
