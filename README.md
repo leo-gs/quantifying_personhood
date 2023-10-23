@@ -6,8 +6,8 @@ _Why do we need qualitative research and critical perspectives?_
 
 _How do truth and objectivity manifest in different research paradigms?_
 
-### Data Workshop: Learning about qualitative research questions with Yelp reviews of bars in Philadelphia.
-Run Shiny app (here)[https://github.com/leo-gs/quantifying_personhood/tree/main/week1_intro].
+### Data Workshop
+Run the Shiny app (here)[https://github.com/leo-gs/quantifying_personhood/tree/main/week1_intro] learn about qualitative research questions using Yelp reviews of bars in Philadelphia.
 
 ### Core Readings
 * Cheney-Lippold, J. (2018). Categorization: Making Data Useful. We are data: Algorithms and the making of our digital selves. NYU Press.
@@ -60,8 +60,8 @@ _How do "thickness" and "thinness" help us evaluate ethnographic data?_
 
 _How do current concerns ethical and legal about user data affect trace data research?_
 
-### Data Workshop: Exploring trace data with posts from r/books
-Run Shiny app [here](https://github.com/leo-gs/quantifying_personhood/tree/main/week4_traceEthnography).
+### Data Workshop: 
+Run the Shiny app [here](https://github.com/leo-gs/quantifying_personhood/tree/main/week4_traceEthnography) to learn more about trace data and trace ethnography with posts from r/books.
 
 ### Trace Data & Data Thickness and Thinness
 #### Core Readings
