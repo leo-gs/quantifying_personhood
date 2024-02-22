@@ -1,6 +1,9 @@
 # Quantifying Personhood
 This course syllabus introduces data scientists to qualitative methods and critical perspectives on data. This curriculum is an extension of Jamie Snyder's course of the same name that teaches qualitative and design methods to data scientists. In addition to weekly readings organized by topic, there are two "data workshops" available as Shiny apps that prompt students to apply course topics to real-world data sets.
 
+<img width="1265" alt="quantifying_personhood_dashboard" src="https://github.com/leo-gs/quantifying_personhood/assets/7462637/5953a1f6-c194-4c9e-9a68-c7f194ac2695">
+
+
 ## Week 1. Course Introduction
 _Why do we need qualitative research and critical perspectives?_
 
@@ -8,6 +11,9 @@ _How do truth and objectivity manifest in different research paradigms?_
 
 ### Data Workshop
 Run the Shiny app [here](https://github.com/leo-gs/quantifying_personhood/tree/main/week1_intro) learn about qualitative research questions using Yelp reviews of bars in Philadelphia.
+
+<img width="1270" alt="quantifying_personhood_dashboard2" src="https://github.com/leo-gs/quantifying_personhood/assets/7462637/120c9050-536e-4cec-bc53-4fa781a59f6c">
+
 
 ### Core Readings
 * Cheney-Lippold, J. (2018). Categorization: Making Data Useful. We are data: Algorithms and the making of our digital selves. NYU Press.
@@ -61,6 +67,9 @@ _How do "thickness" and "thinness" help us evaluate ethnographic data?_
 _How do current concerns ethical and legal about user data affect trace data research?_
 
 ### Data Workshop: 
+
+<img width="1265" alt="trace_eth_network" src="https://github.com/leo-gs/quantifying_personhood/assets/7462637/a5f4ef52-c8ea-417d-89d6-c4092b12de38">
+
 Run the Shiny app [here](https://github.com/leo-gs/quantifying_personhood/tree/main/week4_traceEthnography) to learn more about trace data and trace ethnography with posts from r/books.
 
 ### Trace Data & Data Thickness and Thinness
