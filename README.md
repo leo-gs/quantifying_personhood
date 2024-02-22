@@ -70,7 +70,7 @@ _How do current concerns ethical and legal about user data affect trace data res
 
 <img width="1256" alt="trace_network_2" src="https://github.com/leo-gs/quantifying_personhood/assets/7462637/811948a4-0bb4-4acc-9aa7-925471a9b84f">
 
-Run the Shiny app [here](https://github.com/leo-gs/quantifying_personhood/tree/main/week4_traceEthnography) to learn more about trace data and trace ethnography with posts from r/books.
+Run the Shiny app [here](https://github.com/leo-gs/quantifying_personhood/tree/main/week4_traceEthnography) to learn more about trace data and trace ethnography with posts from r/books and the top 100 subreddits.
 
 ### Trace Data & Data Thickness and Thinness
 #### Core Readings
