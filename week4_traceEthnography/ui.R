@@ -51,7 +51,7 @@ ui <- fluidPage(
              br(),
              h3("1. In Browser"),
              p("Let's start by simply examining the subreddit as it appears in our browser. Open another window or tab and visit the subreddit here: ", 
-               a("https://www.reddit.com/r/books/top&t=all", href = "https://www.reddit.com/r/books/top&t=all"), 
+               a("https://www.reddit.com/r/books/top/?t=all", href = "https://www.reddit.com/r/books/top/?t=all"), 
                ". This URL will show you the top posts in the subreddit. ",
                "It may helpful to drill down into various elements, such as the comment section or individual user profiles."),
              p("To answer the questions below, it may be helpful to take a screenshot or download the page as a ",
